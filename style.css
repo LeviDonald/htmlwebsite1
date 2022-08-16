@@ -70,9 +70,16 @@ footer {
   width: 300px;
 }
 
-.titleimg {
-  position:absolute;
-  top: 250px;
+.titleimg1 {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.titleimg2 {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
 }
 
 figure {
@@ -87,6 +94,10 @@ img {
   margin-left: 2.5rem;
   box-shadow: rgba(0, 0, 0, 0.65) 0px 10px 15px;
 }
+
+/* #titlePos {
+  
+} */
 
 @media (max-width: 60em) {
   figure {
