@@ -72,14 +72,18 @@ footer {
 
 .titleimg1 {
   display: grid;
-  place-items: center;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100px;
+  height: 100px;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  position: absolute;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.titleimg2 {
-  display: grid;
-  place-items: center;
-  grid-template-columns: 1fr 1fr;
+#circle1 {
+  top: 100px;
+  right: 20023px;
 }
 
 figure {
