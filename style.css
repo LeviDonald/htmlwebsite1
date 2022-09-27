@@ -74,6 +74,9 @@ footer {
 .shivering {
   width: 300px;
 }
+h1 {
+  text-align: center;
+}
 
 /* .titleimg1 {
   display: grid;
@@ -92,7 +95,7 @@ footer {
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 60px;
   grid-template-columns: 1fr 1fr 1fr;
   transform: skew(150deg);
@@ -103,7 +106,7 @@ footer {
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 600px;
+  top: 650px;
   left: 250px;
   grid-template-columns: 1fr 1fr 1fr;
   right: 50%;
@@ -127,7 +130,7 @@ footer {
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 600px;
+  top: 650px;
   right: 400px;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -138,7 +141,7 @@ footer {
   height: 100px;
   border-radius: 25%;
   position: absolute;
-  top: 230px;
+  top: 250px;
   right: 300px;
   grid-template-columns: 1fr 1fr 1fr;
   transform: skew(20deg);
@@ -154,6 +157,26 @@ footer {
   right: 780px;
   grid-template-columns: 1fr 1fr 1fr;
 }
+/* #frontpage {
+  height: 910px;
+  background-image:linear-gradient(grey, white);
+}
+#oblivion {
+  height: 930px;
+  background:linear-gradient(rgb(253, 142, 14), white);
+}
+#skyrim {
+  height: 900px;
+  background:linear-gradient(silver, white)
+}
+#P4G {
+  height: 950px;
+  background:linear-gradient(rgb(255, 238, 5), rgb(255, 255, 255, 0))
+}
+#P3FES {
+  height: 1050px;
+  background:linear-gradient(rgb(55, 70, 211), rgb(255, 255, 255, 0))
+} */
 figure {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
